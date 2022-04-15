@@ -4,11 +4,11 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
     
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['Friends']);
 
     return (
         <>
-            <h2>GifExpertApp</h2>
+            <h2>Buscador de Gifs del api Giphy</h2>
             <AddCategory setCategories={ setCategories } />
             <hr />
 
